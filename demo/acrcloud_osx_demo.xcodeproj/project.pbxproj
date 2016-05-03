@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24954011CD8CEB200C7ED26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A24954001CD8CEB200C7ED26 /* AppDelegate.m */; };
+		A24954041CD8CEB200C7ED26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24954031CD8CEB200C7ED26 /* main.m */; };
+		A24954071CD8CEB200C7ED26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24954061CD8CEB200C7ED26 /* ViewController.m */; };
+		A24954091CD8CEB200C7ED26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24954081CD8CEB200C7ED26 /* Assets.xcassets */; };
+		A249540C1CD8CEB200C7ED26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A249540A1CD8CEB200C7ED26 /* Main.storyboard */; };
+		A24954171CD8CEB200C7ED26 /* acrcloud_osx_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A24954161CD8CEB200C7ED26 /* acrcloud_osx_demoTests.m */; };
+		A24954221CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A24954211CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.m */; };
+		A24954371CD8D45E00C7ED26 /* libacrcloud_osx_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24954361CD8D45E00C7ED26 /* libacrcloud_osx_sdk.a */; };
+		A24954391CD8D47C00C7ED26 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A24954381CD8D47C00C7ED26 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A24954131CD8CEB200C7ED26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24953F41CD8CEB200C7ED26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24953FB1CD8CEB200C7ED26;
+			remoteInfo = acrcloud_osx_demo;
+		};
+		A249541E1CD8CEB200C7ED26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24953F41CD8CEB200C7ED26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24953FB1CD8CEB200C7ED26;
+			remoteInfo = acrcloud_osx_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A24953FC1CD8CEB200C7ED26 /* acrcloud_osx_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acrcloud_osx_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24953FF1CD8CEB200C7ED26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A24954001CD8CEB200C7ED26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A24954031CD8CEB200C7ED26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A24954051CD8CEB200C7ED26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A24954061CD8CEB200C7ED26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A24954081CD8CEB200C7ED26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A249540B1CD8CEB200C7ED26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A249540D1CD8CEB200C7ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24954121CD8CEB200C7ED26 /* acrcloud_osx_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acrcloud_osx_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24954161CD8CEB200C7ED26 /* acrcloud_osx_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = acrcloud_osx_demoTests.m; sourceTree = "<group>"; };
+		A24954181CD8CEB200C7ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A249541D1CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acrcloud_osx_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24954211CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = acrcloud_osx_demoUITests.m; sourceTree = "<group>"; };
+		A24954231CD8CEB200C7ED26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24954311CD8D0DC00C7ED26 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
+		A24954321CD8D0DC00C7ED26 /* ACRCloudConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
+		A24954361CD8D45E00C7ED26 /* libacrcloud_osx_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libacrcloud_osx_sdk.a; sourceTree = "<group>"; };
+		A24954381CD8D47C00C7ED26 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24953F91CD8CEB200C7ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24954391CD8D47C00C7ED26 /* libc++.tbd in Frameworks */,
+				A24954371CD8D45E00C7ED26 /* libacrcloud_osx_sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A249540F1CD8CEB200C7ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A249541A1CD8CEB200C7ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24953F31CD8CEB200C7ED26 = {
+			isa = PBXGroup;
+			children = (
+				A24954381CD8D47C00C7ED26 /* libc++.tbd */,
+				A24954361CD8D45E00C7ED26 /* libacrcloud_osx_sdk.a */,
+				A24953FE1CD8CEB200C7ED26 /* acrcloud_osx_demo */,
+				A24954151CD8CEB200C7ED26 /* acrcloud_osx_demoTests */,
+				A24954201CD8CEB200C7ED26 /* acrcloud_osx_demoUITests */,
+				A24953FD1CD8CEB200C7ED26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A24953FD1CD8CEB200C7ED26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24953FC1CD8CEB200C7ED26 /* acrcloud_osx_demo.app */,
+				A24954121CD8CEB200C7ED26 /* acrcloud_osx_demoTests.xctest */,
+				A249541D1CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24953FE1CD8CEB200C7ED26 /* acrcloud_osx_demo */ = {
+			isa = PBXGroup;
+			children = (
+				A24954311CD8D0DC00C7ED26 /* ACRCloudRecognition.h */,
+				A24954321CD8D0DC00C7ED26 /* ACRCloudConfig.h */,
+				A24953FF1CD8CEB200C7ED26 /* AppDelegate.h */,
+				A24954001CD8CEB200C7ED26 /* AppDelegate.m */,
+				A24954051CD8CEB200C7ED26 /* ViewController.h */,
+				A24954061CD8CEB200C7ED26 /* ViewController.m */,
+				A24954081CD8CEB200C7ED26 /* Assets.xcassets */,
+				A249540A1CD8CEB200C7ED26 /* Main.storyboard */,
+				A249540D1CD8CEB200C7ED26 /* Info.plist */,
+				A24954021CD8CEB200C7ED26 /* Supporting Files */,
+			);
+			path = acrcloud_osx_demo;
+			sourceTree = "<group>";
+		};
+		A24954021CD8CEB200C7ED26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24954031CD8CEB200C7ED26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A24954151CD8CEB200C7ED26 /* acrcloud_osx_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A24954161CD8CEB200C7ED26 /* acrcloud_osx_demoTests.m */,
+				A24954181CD8CEB200C7ED26 /* Info.plist */,
+			);
+			path = acrcloud_osx_demoTests;
+			sourceTree = "<group>";
+		};
+		A24954201CD8CEB200C7ED26 /* acrcloud_osx_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A24954211CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.m */,
+				A24954231CD8CEB200C7ED26 /* Info.plist */,
+			);
+			path = acrcloud_osx_demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24953FB1CD8CEB200C7ED26 /* acrcloud_osx_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24954261CD8CEB200C7ED26 /* Build configuration list for PBXNativeTarget "acrcloud_osx_demo" */;
+			buildPhases = (
+				A24953F81CD8CEB200C7ED26 /* Sources */,
+				A24953F91CD8CEB200C7ED26 /* Frameworks */,
+				A24953FA1CD8CEB200C7ED26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acrcloud_osx_demo;
+			productName = acrcloud_osx_demo;
+			productReference = A24953FC1CD8CEB200C7ED26 /* acrcloud_osx_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A24954111CD8CEB200C7ED26 /* acrcloud_osx_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24954291CD8CEB200C7ED26 /* Build configuration list for PBXNativeTarget "acrcloud_osx_demoTests" */;
+			buildPhases = (
+				A249540E1CD8CEB200C7ED26 /* Sources */,
+				A249540F1CD8CEB200C7ED26 /* Frameworks */,
+				A24954101CD8CEB200C7ED26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24954141CD8CEB200C7ED26 /* PBXTargetDependency */,
+			);
+			name = acrcloud_osx_demoTests;
+			productName = acrcloud_osx_demoTests;
+			productReference = A24954121CD8CEB200C7ED26 /* acrcloud_osx_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A249541C1CD8CEB200C7ED26 /* acrcloud_osx_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A249542C1CD8CEB200C7ED26 /* Build configuration list for PBXNativeTarget "acrcloud_osx_demoUITests" */;
+			buildPhases = (
+				A24954191CD8CEB200C7ED26 /* Sources */,
+				A249541A1CD8CEB200C7ED26 /* Frameworks */,
+				A249541B1CD8CEB200C7ED26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A249541F1CD8CEB200C7ED26 /* PBXTargetDependency */,
+			);
+			name = acrcloud_osx_demoUITests;
+			productName = acrcloud_osx_demoUITests;
+			productReference = A249541D1CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24953F41CD8CEB200C7ED26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ACRCloud;
+				TargetAttributes = {
+					A24953FB1CD8CEB200C7ED26 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A24954111CD8CEB200C7ED26 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A24953FB1CD8CEB200C7ED26;
+					};
+					A249541C1CD8CEB200C7ED26 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A24953FB1CD8CEB200C7ED26;
+					};
+				};
+			};
+			buildConfigurationList = A24953F71CD8CEB200C7ED26 /* Build configuration list for PBXProject "acrcloud_osx_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A24953F31CD8CEB200C7ED26;
+			productRefGroup = A24953FD1CD8CEB200C7ED26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24953FB1CD8CEB200C7ED26 /* acrcloud_osx_demo */,
+				A24954111CD8CEB200C7ED26 /* acrcloud_osx_demoTests */,
+				A249541C1CD8CEB200C7ED26 /* acrcloud_osx_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24953FA1CD8CEB200C7ED26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24954091CD8CEB200C7ED26 /* Assets.xcassets in Resources */,
+				A249540C1CD8CEB200C7ED26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24954101CD8CEB200C7ED26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A249541B1CD8CEB200C7ED26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24953F81CD8CEB200C7ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24954071CD8CEB200C7ED26 /* ViewController.m in Sources */,
+				A24954041CD8CEB200C7ED26 /* main.m in Sources */,
+				A24954011CD8CEB200C7ED26 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A249540E1CD8CEB200C7ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24954171CD8CEB200C7ED26 /* acrcloud_osx_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24954191CD8CEB200C7ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24954221CD8CEB200C7ED26 /* acrcloud_osx_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A24954141CD8CEB200C7ED26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24953FB1CD8CEB200C7ED26 /* acrcloud_osx_demo */;
+			targetProxy = A24954131CD8CEB200C7ED26 /* PBXContainerItemProxy */;
+		};
+		A249541F1CD8CEB200C7ED26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24953FB1CD8CEB200C7ED26 /* acrcloud_osx_demo */;
+			targetProxy = A249541E1CD8CEB200C7ED26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A249540A1CD8CEB200C7ED26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A249540B1CD8CEB200C7ED26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A24954241CD8CEB200C7ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A24954251CD8CEB200C7ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A24954271CD8CEB200C7ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = acrcloud_osx_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/acrcloud_osx_demo",
+					"$(PROJECT_DIR)/acrcloud_osx_demo/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.acrcloud-osx-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A24954281CD8CEB200C7ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = acrcloud_osx_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/acrcloud_osx_demo",
+					"$(PROJECT_DIR)/acrcloud_osx_demo/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.acrcloud-osx-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A249542A1CD8CEB200C7ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = acrcloud_osx_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.acrcloud-osx-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acrcloud_osx_demo.app/Contents/MacOS/acrcloud_osx_demo";
+			};
+			name = Debug;
+		};
+		A249542B1CD8CEB200C7ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = acrcloud_osx_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.acrcloud-osx-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acrcloud_osx_demo.app/Contents/MacOS/acrcloud_osx_demo";
+			};
+			name = Release;
+		};
+		A249542D1CD8CEB200C7ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = acrcloud_osx_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.acrcloud-osx-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = acrcloud_osx_demo;
+			};
+			name = Debug;
+		};
+		A249542E1CD8CEB200C7ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = acrcloud_osx_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ACRCloud.acrcloud-osx-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = acrcloud_osx_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24953F71CD8CEB200C7ED26 /* Build configuration list for PBXProject "acrcloud_osx_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24954241CD8CEB200C7ED26 /* Debug */,
+				A24954251CD8CEB200C7ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24954261CD8CEB200C7ED26 /* Build configuration list for PBXNativeTarget "acrcloud_osx_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24954271CD8CEB200C7ED26 /* Debug */,
+				A24954281CD8CEB200C7ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A24954291CD8CEB200C7ED26 /* Build configuration list for PBXNativeTarget "acrcloud_osx_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A249542A1CD8CEB200C7ED26 /* Debug */,
+				A249542B1CD8CEB200C7ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A249542C1CD8CEB200C7ED26 /* Build configuration list for PBXNativeTarget "acrcloud_osx_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A249542D1CD8CEB200C7ED26 /* Debug */,
+				A249542E1CD8CEB200C7ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A24953F41CD8CEB200C7ED26 /* Project object */;
+}
